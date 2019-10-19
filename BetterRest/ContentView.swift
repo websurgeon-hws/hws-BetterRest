@@ -8,7 +8,9 @@ struct ContentView: View {
     @State private var wakeUp = Date()
     
     var body: some View {
-        DatePicker("Please enter a date", selection: $wakeUp)
+        DatePicker("Please enter a date",
+                   selection: $wakeUp,
+                   displayedComponents: .hourAndMinute)
         .labelsHidden()
     }
 }
