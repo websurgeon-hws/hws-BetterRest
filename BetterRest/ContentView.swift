@@ -8,15 +8,15 @@ struct ContentView: View {
     @State private var wakeUp = Date()
     
     var body: some View {
-        var components = DateComponents()
-        components.hour = 8
-        components.minute = 0
-        let date = Calendar.current.date(from: components) ?? Date()
-        
+        let someDate = Date()
+        var components = Calendar.current.dateComponents([.hour,.minute], from: someDate)
+        let hour = components.hour ?? 0
+        let minute = components.minute ?? 0
+
         return DatePicker("Please enter a date",
                    selection: $wakeUp,
                    in: Date()...)
-        .labelsHidden()
+                .labelsHidden()
     }
 }
 
