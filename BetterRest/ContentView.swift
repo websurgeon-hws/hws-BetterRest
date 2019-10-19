@@ -8,10 +8,10 @@ struct ContentView: View {
     @State private var wakeUp = Date()
     
     var body: some View {
-        let someDate = Date()
-        var components = Calendar.current.dateComponents([.hour,.minute], from: someDate)
-        let hour = components.hour ?? 0
-        let minute = components.minute ?? 0
+        let formatter = DateFormatter()
+        formatter.timeStyle = .short
+        
+        let dateString = formatter.string(from: Date())
 
         return DatePicker("Please enter a date",
                    selection: $wakeUp,
