@@ -9,7 +9,7 @@ struct ContentView: View {
     
     var body: some View {
         Stepper(value: $sleepAmount, in: 4...12, step: 0.25) {
-            Text("\(self.sleepAmount) hours")
+            Text("\(self.sleepAmount, specifier: "%g") hours")
         }
     }
 }
