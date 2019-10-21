@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0BBEE41235E14AD008A98A0 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D0BBEE40235E14AD008A98A0 /* SleepCalculator.mlmodel */; };
 		D0F2EE38235AFC1C0068283E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F2EE37235AFC1C0068283E /* AppDelegate.swift */; };
 		D0F2EE3A235AFC1C0068283E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F2EE39235AFC1C0068283E /* SceneDelegate.swift */; };
 		D0F2EE3C235AFC1C0068283E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F2EE3B235AFC1C0068283E /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0BBEE40235E14AD008A98A0 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SleepCalculator.mlmodel; path = BetterRest/SleepCalculator.mlmodel; sourceTree = SOURCE_ROOT; };
 		D0F2EE34235AFC1C0068283E /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F2EE37235AFC1C0068283E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0F2EE39235AFC1C0068283E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		D0F2EE36235AFC1C0068283E /* BetterRest */ = {
 			isa = PBXGroup;
 			children = (
+				D0BBEE40235E14AD008A98A0 /* SleepCalculator.mlmodel */,
 				D0F2EE37235AFC1C0068283E /* AppDelegate.swift */,
 				D0F2EE39235AFC1C0068283E /* SceneDelegate.swift */,
 				D0F2EE3B235AFC1C0068283E /* ContentView.swift */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0F2EE38235AFC1C0068283E /* AppDelegate.swift in Sources */,
+				D0BBEE41235E14AD008A98A0 /* SleepCalculator.mlmodel in Sources */,
 				D0F2EE3A235AFC1C0068283E /* SceneDelegate.swift in Sources */,
 				D0F2EE3C235AFC1C0068283E /* ContentView.swift in Sources */,
 			);
